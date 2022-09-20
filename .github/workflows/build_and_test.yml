@@ -3,17 +3,16 @@ name: TcUnit-Runner
  
 on:
   push:
-    branches: [ main ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ main ]
+    branches: [ "main" ]
  
 jobs:
  
   tcunit_runner:
  
     # a self hosted runner, i.e. VM with tag 'tcunit'
-    # runs-on: [ self-hosted, tcunit, ubuntu-latest ]
-    runs-on: [ tcunit ]
+    runs-on: [ self-hosted, tcunit ]
  
     steps:
  
