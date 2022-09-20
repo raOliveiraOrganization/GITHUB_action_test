@@ -13,7 +13,7 @@ jobs:
  
     # a self hosted runner, i.e. VM with tag 'tcunit'
     # runs-on: [ self-hosted, tcunit, ubuntu-latest ]
-    runs-on: [ ubuntu-latest ]
+    runs-on: [ tcunit ]
  
     steps:
  
